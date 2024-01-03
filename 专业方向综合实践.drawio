@@ -1,9 +1,149 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T12:49:56.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.16" etag="f69aerryYHugokg2eZH0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T14:13:09.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="msLMhfoFuBHzKArMtSLH" version="22.1.16" type="github" pages="2">
   <diagram name="第 1 页" id="1C67BM4uaT7PEC-5aRJi">
-    <mxGraphModel>
+    <mxGraphModel dx="2532" dy="1966" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;MainWindow&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-679" width="398" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-2" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;- ui: MainWindow&lt;br style=&quot;font-size: 17px;&quot;&gt;- mywindow: Mywindow&lt;br style=&quot;font-size: 17px;&quot;&gt;- closeButton: mybutton&lt;br style=&quot;font-size: 17px;&quot;&gt;- runButton: mybutton&amp;nbsp;&lt;br style=&quot;font-size: 17px;&quot;&gt;- addButton: mybutton&lt;br style=&quot;font-size: 17px;&quot;&gt;- PreOrderButton: QPushBuitton&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;- InOrderButton: QPushButton&lt;br style=&quot;font-size: 17px;&quot;&gt;- PostOrderButton: QPushButton&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-1">
+          <mxGeometry y="40" width="398" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-1">
+          <mxGeometry y="210" width="398" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-4" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;- mousePressEvent(event: QMouseEvent*): void&lt;br style=&quot;font-size: 17px;&quot;&gt;- mouseMoveEvent(event: QMouseEvent*): void&lt;br style=&quot;font-size: 17px;&quot;&gt;- paintEvent(event: QPaintEvent*): void&lt;br style=&quot;font-size: 17px;&quot;&gt;- Config_Connect(): void&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-1">
+          <mxGeometry y="218" width="398" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-9" value="MyGview" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-26" y="-288" width="398" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-10" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;+ root : MyGNodeItem*&lt;br style=&quot;font-size: 17px;&quot;&gt;- vexnum: int&lt;br style=&quot;font-size: 17px;&quot;&gt;- isAdding: int&lt;br style=&quot;font-size: 17px;&quot;&gt;- vexes: QVector&amp;lt;MyGNodeItem*&amp;gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;- orderedvex: QVector&amp;lt;MyGNodeItem&amp;gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;- AniOrder: QVector&amp;lt;QTimeLine*&amp;gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;- AddingEdge: &amp;lt;QGraphicsLineItem*&amp;gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-9">
+          <mxGeometry y="40" width="398" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-9">
+          <mxGeometry y="210" width="398" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-12" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;+ clearBrush(): void&lt;br style=&quot;font-size: 17px;&quot;&gt;+ PreOrder(node: MyGNodeItem*): void&lt;br style=&quot;font-size: 17px;&quot;&gt;+ InOrder(node: MyGNodeItem*): void&lt;br style=&quot;font-size: 17px;&quot;&gt;+ PostOrder(node: MyGNodeItem*): void&lt;br style=&quot;font-size: 17px;&quot;&gt;- creatNewNode(): MyGNodeItem*&lt;br style=&quot;font-size: 17px;&quot;&gt;- creatNewEdge(): MyGEdgeItem*&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-9">
+          <mxGeometry y="218" width="398" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-13" value="MyGEdgeItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="322" y="140" width="398" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-14" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;- EdgeWidth: qreal&lt;br style=&quot;font-size: 17px;&quot;&gt;- startNode: MyGNodeItem&lt;br style=&quot;font-size: 17px;&quot;&gt;- endNode: MyGNodeItem&lt;br style=&quot;font-size: 17px;&quot;&gt;- EdgeStyle: PenStyle&lt;br style=&quot;font-size: 17px;&quot;&gt;- capStyle: PenCapStyle&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-13">
+          <mxGeometry y="40" width="398" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-13">
+          <mxGeometry y="165" width="398" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-16" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;+ MyGEdgeItem(): MyGEdgeItem&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-13">
+          <mxGeometry y="173" width="398" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-17" value="MyGNodeItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-201" y="140" width="398" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-18" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;- formal: QBrush&lt;br style=&quot;font-size: 17px;&quot;&gt;- visited: QBrush&lt;br style=&quot;font-size: 17px;&quot;&gt;- radius: qreal&lt;br style=&quot;font-size: 17px;&quot;&gt;- ID: int&lt;br style=&quot;font-size: 17px;&quot;&gt;- orderedID: int&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-17">
+          <mxGeometry y="40" width="398" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-17">
+          <mxGeometry y="164" width="398" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-20" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;+ getID(): int&lt;br style=&quot;font-size: 17px;&quot;&gt;+ getOderID(): int&lt;br style=&quot;font-size: 17px;&quot;&gt;+ setOderID(): void&lt;br style=&quot;font-size: 17px;&quot;&gt;+ getRadius(): qreal&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-17">
+          <mxGeometry y="172" width="398" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-21" value="ScreeneShotWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="609" y="-288" width="398" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-22" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;- isGrabbing: int&lt;br style=&quot;font-size: 17px;&quot;&gt;- isfirst: int&lt;br style=&quot;font-size: 17px;&quot;&gt;- fullScreen: QPixmap&lt;br style=&quot;font-size: 17px;&quot;&gt;- grapedScreen: QPixmap&lt;br style=&quot;font-size: 17px;&quot;&gt;- start: QPoint&lt;br style=&quot;font-size: 17px;&quot;&gt;- end: QPoint&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-21">
+          <mxGeometry y="40" width="398" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-21">
+          <mxGeometry y="178" width="398" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-24" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;+ ScreenShowWindow(): ScreenShotWindow&lt;br style=&quot;font-size: 17px;&quot;&gt;- mousePressEvent(event: QMouseEvent*): void&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;- mouseMoveEvent(event: QMouseEvent*): void&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;- paintEvent(event: QPaintEvent*): void&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="WPdXPVmWwxtbRhplBYoh-21">
+          <mxGeometry y="186" width="398" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-39" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="1" source="WPdXPVmWwxtbRhplBYoh-2" target="WPdXPVmWwxtbRhplBYoh-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="38" y="-534" as="sourcePoint" />
+            <mxPoint x="198" y="-534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-40" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="WPdXPVmWwxtbRhplBYoh-2" target="WPdXPVmWwxtbRhplBYoh-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="697" y="-536" as="sourcePoint" />
+            <mxPoint x="857" y="-536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-41" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.591;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="WPdXPVmWwxtbRhplBYoh-10" target="WPdXPVmWwxtbRhplBYoh-17">
+          <mxGeometry x="-1" y="36" relative="1" as="geometry">
+            <mxPoint x="-365" y="-11" as="sourcePoint" />
+            <mxPoint x="-205" y="-11" as="targetPoint" />
+            <mxPoint x="-7" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WPdXPVmWwxtbRhplBYoh-46" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1.005;exitY=0.582;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=17;" edge="1" parent="1" source="WPdXPVmWwxtbRhplBYoh-10" target="WPdXPVmWwxtbRhplBYoh-13">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="432" y="34" as="sourcePoint" />
+            <mxPoint x="592" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dGklIfRbJo8h1jZgqUyg" name="第 2 页">
+    <mxGraphModel dx="2586" dy="1558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tu3zF93as4dj13DEs3mD-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-927" y="-607" width="554" height="554" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;二叉树绘制软件&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-729" y="-651" width="158" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu3zF93as4dj13DEs3mD-4" target="tu3zF93as4dj13DEs3mD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu3zF93as4dj13DEs3mD-4" target="tu3zF93as4dj13DEs3mD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tu3zF93as4dj13DEs3mD-4" target="tu3zF93as4dj13DEs3mD-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-899" y="-314" />
+              <mxPoint x="-899" y="-173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-4" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-1082" y="-357.5" width="59" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-8" value="绘制二叉树" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-777" y="-553" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-9" value="编辑节点" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-779" y="-443" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-10" value="选择遍历模式" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-777" y="-328" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-12" value="导出为图片" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-694.5" y="-213" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tu3zF93as4dj13DEs3mD-4" target="tu3zF93as4dj13DEs3mD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1.025;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="1" source="tu3zF93as4dj13DEs3mD-12" target="tu3zF93as4dj13DEs3mD-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-604" y="-234" as="sourcePoint" />
+            <mxPoint x="-444" y="-234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tu3zF93as4dj13DEs3mD-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="-262" width="112" height="32" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

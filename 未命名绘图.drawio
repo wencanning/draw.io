@@ -1,9 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T14:03:26.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="22.1.16" etag="3nCwBIJBpibThqddp3bz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T14:42:08.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="XRPq7sXN1kapx7VplXmP" version="22.1.16" type="github">
   <diagram name="第 1 页" id="TsvRHG8YH_mwFPJLIUgm">
-    <mxGraphModel>
+    <mxGraphModel dx="792" dy="433" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-1" value="网易云音乐app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="21" y="296" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-2" value="音乐播放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="205" width="96" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-4" value="MV播放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="268" width="96" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-5" value="歌词显示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="331" width="96" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-6" value="歌单推荐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="394" width="96" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-1" target="KwZcR7eo--O5hiHx4JfC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="137" y="293" as="sourcePoint" />
+            <mxPoint x="187" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-1" target="KwZcR7eo--O5hiHx4JfC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="163" y="330" as="sourcePoint" />
+            <mxPoint x="213" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-1" target="KwZcR7eo--O5hiHx4JfC-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="189" y="403" as="sourcePoint" />
+            <mxPoint x="239" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-1" target="KwZcR7eo--O5hiHx4JfC-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="142" y="325" as="sourcePoint" />
+            <mxPoint x="215" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-14" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="39" y="641" width="33" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-18" value="在播放列表中选择歌曲" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="162" y="729" width="77" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-19" value="上/下一曲" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="162" y="548" width="77" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-20" value="暂停/播放歌曲" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="162" y="607" width="77" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-21" value="播放MV" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="162" y="668" width="77" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-14" target="KwZcR7eo--O5hiHx4JfC-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="652" as="sourcePoint" />
+            <mxPoint x="150" y="602" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-24" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-14" target="KwZcR7eo--O5hiHx4JfC-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="105" y="690" as="sourcePoint" />
+            <mxPoint x="155" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-14" target="KwZcR7eo--O5hiHx4JfC-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109" y="698" as="sourcePoint" />
+            <mxPoint x="159" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-26" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-14" target="KwZcR7eo--O5hiHx4JfC-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="768" as="sourcePoint" />
+            <mxPoint x="140" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-28" value="首页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="537" y="484" width="74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-28" target="KwZcR7eo--O5hiHx4JfC-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="536" as="sourcePoint" />
+            <mxPoint x="720" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-31" target="KwZcR7eo--O5hiHx4JfC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-31" value="选择歌单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="641" y="484" width="74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-32" value="播放音乐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="747" y="484" width="74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-34" value="上/下一曲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872" y="366" width="74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-35" value="暂停" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872" y="424" width="74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-36" value="显示歌词" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872" y="484" width="74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-37" value="播放MV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872" y="544" width="74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-38" target="KwZcR7eo--O5hiHx4JfC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-38" value="播放列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872" y="604" width="74" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-32" target="KwZcR7eo--O5hiHx4JfC-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="791" y="587" as="sourcePoint" />
+            <mxPoint x="841" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-32" target="KwZcR7eo--O5hiHx4JfC-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="499" as="sourcePoint" />
+            <mxPoint x="875" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-32" target="KwZcR7eo--O5hiHx4JfC-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="587" as="sourcePoint" />
+            <mxPoint x="870" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-32" target="KwZcR7eo--O5hiHx4JfC-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="809" y="462" as="sourcePoint" />
+            <mxPoint x="859" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwZcR7eo--O5hiHx4JfC-32" target="KwZcR7eo--O5hiHx4JfC-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="788" y="655" as="sourcePoint" />
+            <mxPoint x="838" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KwZcR7eo--O5hiHx4JfC-47" value="选择歌曲" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="795" y="627" width="66" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
